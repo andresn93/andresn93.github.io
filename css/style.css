@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:100,400|Open+Sans:300,500);
+
+body {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/*=============================NAVBAR========================*/
+.top-navbar{
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 80px;
+
+}
+
+.logo {
+	font-family: Saira Semi Condensed;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 100;
+	color: #000;
+	padding-left: 10%;
+	margin-bottom: 0px;
+}
+
+.title {
+	font-family: Saira Semi Condensed;
+	font-size: 11px;
+	font-weight: 400;
+	color: #000;
+	opacity: 0.8;
+	padding-left: 10%;
+}
+
+	/*==========MENU ICON==========*/
+
+	header .collapsed{
+		width: 65px;
+		height: 50px;
+		background-color: #44558F;
+		opacity: 0.8;
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 9999;
+	}
+
+	.container-icon{
+		display: inline-block;
+		position: absolute;
+		right: 10%;
+		top: 40px;
+		z-index: 9999;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+	}
+
+	.bar1, .bar2, .bar3{
+		width: 35px;
+		height: 3px;
+		background-color: #000;
+		margin: 5px 0;
+		transition: 0.4s;
+	}
+
+	.change .bar1{
+		-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
+	}
+
+	.change .bar2{
+		opacity: 0;
+	}
+
+	.change .bar3{
+		-webkit-transform: rotate(45deg) translate(-9px, -6px);
+		transform: rotate(45deg) translate(-9px, -6px);
+	}
+
+	/*==========MENU DROPDOWN========*/
+
+	.menu-list{
+		display: none;
+		position: relative;
+		float: right;
+		width: 300px;
+		height: 150px;
+		float: right;
+	}
+
+	.menu-list.expand {
+		display:block;
+	}
+
+	.drop-bar{
+		margin-top: 6px;
+		margin-left: -20px;
+	}
+
+	.drop-bar li{
+		list-style-type: none;
+		text-decoration: none;
+		display: block;
+		opacity: 0.8;
+		background-color: #000;
+		padding: 10px 10px 10px 10px;
+		text-align: center;
+		font-weight: 100;
+		letter-spacing: 0.2em;
+		margin-top: 3px;
+		width: 100%;
+	}
+
+	.drop-bar a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+/*========================PAGE LAYOUT========================*/
+
+.body-wrap{
+	padding: 10px 16px 50px;
+    position: relative;
+    background-color: #fff;
+    z-index: 9;
+    height: auto;
+    min-height: -webkit-calc(100% - 200px);
+    min-height: calc(100% - 200px);
+}
+
+.content{
+	max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
